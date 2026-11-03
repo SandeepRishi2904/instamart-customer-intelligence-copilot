@@ -23,6 +23,8 @@ python src/part_c_triage.py        # ticket triage, outputs/triage_results.csv, 
 python src/part_d_run.py           # RAG evaluation, refund agent runs, demos; writes outputs/agent_runs.jsonl, refund_ledger.jsonl, state/
 ```
 
+To run all the script steps above (from `generate_data.py` onwards) in one command instead, after installing the libraries: `python run_all.py`. It stops at the first failing script.
+
 ## Part A
 
 ### Audit of the raw data
